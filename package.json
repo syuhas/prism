@@ -1,6 +1,6 @@
 {
 	"name": "@syuhas22/prismjs",
-	"version": "1.29.0",
+	"version": "1.29.2",
 	"description": "Custom spinoff of prism for my project to use Okaidia to mimic VSCode Python highlighting.",
 	"main": "prism.js",
 	"types": "types/index.d.ts",
@@ -85,8 +85,5 @@
 			"themes/*.css",
 			"prism.js"
 		]
-	},
-	"dependencies": {
-		"@syuhas22/prismjs": "file:syuhas22-prismjs-1.29.0.tgz"
 	}
 }
