@@ -1,8 +1,9 @@
 {
 	"name": "@syuhas22/prismjs",
 	"version": "1.29.0",
-	"description": "Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.",
+	"description": "Custom spinoff of prism for my project to use Okaidia to mimic VSCode Python highlighting.",
 	"main": "prism.js",
+	"types": "types/index.d.ts",
 	"style": "themes/prism.css",
 	"engines": {
 		"node": ">=6"
@@ -28,7 +29,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/PrismJS/prism.git"
+		"url": "https://github.com/syuhas/prism.git"
 	},
 	"keywords": [
 		"prism",
@@ -39,6 +40,7 @@
 	"readmeFilename": "README.md",
 	"devDependencies": {
 		"@types/node-fetch": "^2.5.5",
+		"@types/prismjs": "^1.26.4",
 		"benchmark": "^2.1.4",
 		"chai": "^4.2.0",
 		"danger": "^10.5.0",
@@ -83,5 +85,8 @@
 			"themes/*.css",
 			"prism.js"
 		]
+	},
+	"dependencies": {
+		"@syuhas22/prismjs": "file:syuhas22-prismjs-1.29.0.tgz"
 	}
 }
